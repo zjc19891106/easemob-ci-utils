@@ -1,6 +1,6 @@
-urlevn = "ebs"
+urlevn = "ngi"
 orgName = "easemob-demo"
-appName = "lxm"
+appName = "iosci"
 RunOrgToken = "NORUN"
 RunAppToken = "RUN"
 RunUserToken = "RUN"
