@@ -8,7 +8,7 @@ ${WsUrl}    ws://127.0.0.1:8083/iov/websocket/dual?topic=
 &{Wayang2Res}        WSUrl=${WsUrl}    topic=iOS1    device=Mobile   WSconn=    WShandle=    alias=    consolealias=
 &{Wayang1Res}        WSUrl=${WsUrl}    topic=iOS    device=Mobile   WSconn=    WShandle=    alias=    consolealias=
 ${savecasepath}    ./jsoncase
-&{WSproperties}    timeout=5    delay=10    retry=4
+&{WSproperties}    timeout=7    delay=10    retry=4
 ${fakerlocale}    zh_CN
 &{SDKBVlist}    nicknamemin=${1}    nicknamemax=${100}    usernamemin=${1}    usernamemax=${64}    passwordmin=${1}
 @{deluserlist}
